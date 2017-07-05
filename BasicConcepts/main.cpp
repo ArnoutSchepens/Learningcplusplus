@@ -30,13 +30,13 @@ int main() {
     cout << a << " + " << b << " = " << sum;
 
 
-    int num1, num2;
+    /*int num1, num2;
     cout << "\nPlease enter a number for num1: ";
     cin >> num1; //There is already an endl after cin
     cout << "Please enter a number for num2: ";
     cin >> num2;
     cout << "num1 + num2 = " << num1 + num2 << endl;
-
+*/
 
     int c = 15;
     int d = c;
@@ -58,7 +58,47 @@ int main() {
     int i = 25 % 7;
     cout <<  "25 % 7 = " << i << endl;
 
+    int j = 5 + 2 * 2;
+    cout << "j = " << j << endl;
 
+    int k = (5 + 2) * 2;
+    cout << "k = " << k << endl;
+
+    int l = 10;
+    l += 4;
+    cout << "l += 4 = " << l << endl;
+    l -= 5;
+    cout << "l -= 5 = " << l << endl;
+    l *= 3;
+    cout << "l *= 3 = " << l << endl;
+    l /= 2;
+    cout << "l /= 2 = " << l << endl;
+    l %= 4;
+    cout << "l %= 4 = " << l << endl;
+
+    int m = 0;
+    m++;x
+    cout << "m = 0, after m++: m = " << m << endl;
+
+    int n = 5;
+    int o = ++n;
+    cout << "n = " << n << ", o = " << o << endl;
+
+    int p = 5;
+    int q = p++;
+    cout << "p = " << p << ", q = " << q << endl;
+
+    int r = 0;
+    r--;
+    cout << "m = 0, after m++: m = " << m << endl;
+
+    int s = 5;
+    int t = --s;
+    cout << "s = " << s << ", t = " << t << endl;
+
+    int u = 5;
+    int v = u--;
+    cout << "u = " << u << ", v = " << v << endl;
 
     return 0;
 }
